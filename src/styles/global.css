@@ -9,6 +9,7 @@
     --color-gray: #5C5C5C; /* Variável de cor */
     --color-gray-2: #969696; /* Variável de cor */
     --color-gray-3: #C4C4C4; /* Variável de cor */
+    --color-hover: #32b1ec;
 
     /* ------ FONTES ------ */
     /* -- SIZE -- */
@@ -31,6 +32,8 @@
 
     /* FAMILY */
     --font-family-primary: "Poppins", sans-serif; /* Variável família da fonte */ 
+
+    --line-height-body: 30px;
 }
 
 /* ----- RESET DO CSS ----- */
