@@ -114,3 +114,27 @@ main {
     border: 1px solid var(--color-hover);
 }
 
+
+.section-services {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 25px;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-item h2 {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+}
+.service-item p {
+    font-size: var(--font-size-body);
+    font-weight: var( --font-weight-body);
+    color: var(--color-gray-2);
+}
