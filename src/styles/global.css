@@ -1,11 +1,3 @@
-/* ----- RESET DO CSS ----- */
-*{
-    border: 0; /* Borda do elemento -> Zeramos*/
-    margin: 0; /* Distância externa -> Zeramos */
-    padding: 0; /* Espaçamento interno -> Zeramos */
-    box-sizing: border-box; /* Respeitar largura e altura */    
-}
-
 /* ----- VARIÁVEIS CSS ----- */
 :root{
 
@@ -39,7 +31,15 @@
 
     /* FAMILY */
     --font-family-primary: "Poppins", sans-serif; /* Variável família da fonte */ 
-
-
 }
+
+/* ----- RESET DO CSS ----- */
+*{
+    border: 0; /* Borda do elemento -> Zeramos*/
+    margin: 0; /* Distância externa -> Zeramos */
+    padding: 0; /* Espaçamento interno -> Zeramos */
+    box-sizing: border-box; /* Respeitar largura e altura */ 
+    font-family: var(--font-family-primary);
+}
+
 
