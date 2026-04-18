@@ -252,3 +252,46 @@ article.service-description:nth-of-type(2) {
     width: 445px;
     color: var(--color-gray);
 }
+
+.section-benefits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+
+/* MESMOS ARTICLES DA SECTION (CLASSES DIFERENTES) */
+article.card-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+.benefit-1 {
+    background-color: var(--color-gray-3);
+    color: var(--color-black);
+}
+.benefit-1 p {
+    color: var(--color-gray);
+}
+.benefit-2 {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+article.card-benefit h2 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+}
+
+article.card-benefit p {
+    width: 462px;
+    font-size: var(--font-weight-body);
+}
+
+article.card-benefit a {
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+}
+
