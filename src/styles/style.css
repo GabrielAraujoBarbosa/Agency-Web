@@ -1,5 +1,43 @@
 @import url("./global.css");
 
+:root{
+
+    /* ------ CORES ------ */
+    --color-blue: #1090CB; /* Variável de cor */
+    --color-blue-10: #1090CB1a; /* Variável de cor */
+    --color-white: #FFFFFF; /* Variável de cor */
+    --color-black: #000000; /* Variável de cor */
+    --color-gray: #5C5C5C; /* Variável de cor */
+    --color-gray-2: #969696; /* Variável de cor */
+    --color-gray-3: #C4C4C4; /* Variável de cor */
+    --color-hover: #32b1ec;
+
+    /* ------ FONTES ------ */
+    /* -- SIZE -- */
+    --font-size-h1: 35px; /* Variável tamanho de fonte */
+    --font-size-h2: 30px; /* Variável tamanho de fonte */
+    --font-size-h3: 25px; /* Variável tamanho de fonte */
+    --font-size-h4: 18px; /* Variável tamanho de fonte */
+    --font-size-body: 16px; /* Variável tamanho de fonte */
+    --font-size-button: 16px; /* Variável tamanho de fonte */
+    --font-size-caption: 14px; /* Variável tamanho de fonte */
+
+    /* -- weight -- */
+    --font-weight-h1: 600; /* Variável Espessura da fonte */
+    --font-weight-h2: 600; /* Variável Espessura da fonte */
+    --font-weight-h3: 600; /* Variável Espessura da fonte */
+    --font-weight-h4: 500; /* Variável Espessura da fonte */
+    --font-weight-body: 400; /* Variável Espessura da fonte */
+    --font-weight-button: 700; /* Variável Espessura da fonte */
+    --font-weight-caption: 400; /* Variável Espessura da fonte */
+
+    /* FAMILY */
+    --font-family-primary: "Poppins", sans-serif; /* Variável família da fonte */ 
+
+    --line-height-body: 30px;
+}
+
+
 p {
     line-height: var(--line-height-body);
 }
@@ -121,6 +159,7 @@ main {
     gap: 25px;
     justify-content: center;
     padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
 }
 
 .service-item {
@@ -137,4 +176,79 @@ main {
     font-size: var(--font-size-body);
     font-weight: var( --font-weight-body);
     color: var(--color-gray-2);
+}
+
+.section-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 70px 0;
+}
+
+.details-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.details-presentation h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+}
+
+.details-presentation p {
+    color: var(--color-gray-2);
+    width: 665px;
+    margin: 0 auto;
+}
+
+article.service-description {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+article.service-description:nth-of-type(2) {
+    flex-direction: row-reverse; 
+}
+
+.content-service {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-service-top {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.content-service-top div span {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+}
+
+.content-service-top div p {
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-caption);
+    color: var(--color-gray-2);
+}
+
+.content-service h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    width: 420px;
+}
+
+.content-service h3 span {
+    color: var(--color-blue);
+}
+
+.content-service p {
+    width: 445px;
+    color: var(--color-gray);
 }
